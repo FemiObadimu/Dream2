@@ -1,0 +1,456 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /*font-family: Open Sans; */
+}
+
+.nav-link{
+    color: black !important;
+    padding: 0px 10px !important;
+    font-size: 16px;
+}
+
+.nav-link:hover{
+    color:black;
+}
+
+.fa-bars{
+    color:black !important;
+}
+
+
+nav{
+    background: white !important;
+    position: sticky;
+    color:black !important;
+}
+
+.navbar-light .navbar-brand{
+    color:black !important; 
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.dott{
+    color: rgba(0, 0, 255, 0.897);
+    
+}
+
+.top-spc{
+    padding-top: 200px;
+}
+
+.top-image{
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.theFirstImage{
+    overflow-x: hidden;
+    padding: 20px 0px;
+    width: 100% !important;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.text1{
+    padding-top: 20px;
+    font-size: 40px;
+   
+}
+
+.text2{
+    color: rgb(136, 134, 134);
+}
+
+.spc{
+    margin: 70px 0px;
+}
+
+.text3{
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.text4{
+    font-size: 25px;
+    padding-top: 50px;
+    font-weight: 500;
+}
+
+.box1{
+    width: 400px;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+    position: relative;
+}
+
+.blue-icon-bg{
+    padding-top:24px ;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    margin-top: -70px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:  rgba(0, 68, 255, 0.952);
+}
+
+.text5{
+    font-size: 25px;
+    padding-top:24px;
+    font-weight: 500;
+}
+
+.learn{
+    padding: 20px 0px;
+    text-decoration: none;
+    color: rgba(23, 84, 252, 0.884);
+}
+
+.about-flexing{
+    padding:45px;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around !important;
+    flex-wrap: wrap;
+}
+
+ .text6{
+    color: rgb(136, 134, 134);
+    padding: 10px;
+ }
+
+
+
+/* ---------------------------About---------------------- */
+
+#about{
+    padding: 50px 0px;
+}
+
+.text7{
+    font-size: 25px;
+    padding: 30px 0px;
+    font-weight: 600;
+}
+
+.text8{
+    color: rgb(136, 134, 134);
+}
+
+
+.fa-check{
+    padding-right: 20px;
+}
+
+.text9{
+    padding: 20px 0px;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.small-slider{
+    overflow-x: hidden;
+    padding: 30px 0px;
+    border-left: 4px solid rgba(23, 84, 252, 0.884);
+    box-shadow: 1px 1px 6px -4px ;
+}
+
+.part-A{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+}
+
+.part-A div{
+    padding: 0px 20px;
+}
+
+.small-test{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+}
+
+.text10{
+    padding-top:10px ;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.text11{
+    padding: 0px 20px;
+    color:rgb(136, 134, 134) ;
+}
+
+
+/* ----------------------Team-------------------- */
+
+#team,#services{
+    padding: 40px 0px;
+}
+
+
+.box2{
+    width: 400px;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+}
+
+.image-flexing{
+    padding:45px;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around !important;
+    flex-wrap: wrap;
+}
+
+
+
+.team-images{
+    width: 300px;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+
+.text12{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.text13{
+    letter-spacing: 1px;
+    color: rgba(23, 84, 252, 0.884);
+    font-size: 20px;
+}
+
+
+
+
+/* -----------------------Testimonial---------------------- */
+
+
+#testimonial{
+    padding: 40px 0px;
+}
+
+.carousel{
+    width: 100% !important;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.carousel-item{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.testimonial-images{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+
+}
+
+
+.carousel-caption{
+    bottom: 100px;
+}
+
+.carousel-indicators{
+    color: blue !important;
+}
+
+.carousel-caption h5{
+    font-weight: 500;
+    color: black;
+}
+
+
+
+/* ------------------------Blogs------------------ */
+
+
+#blogs{
+    padding: 40px 0px;
+}
+
+.blog-images{
+    width: 300px;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+
+/* ----------------Contact------------------ */
+
+#contact{
+    padding: 100px 0px;
+}
+
+.text15{
+    padding: 20px 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+label{
+    text-align: start;
+    padding: 10px 0px;
+    font-size: 20px;
+    color:  rgba(23, 84, 252, 0.884);
+    font-weight: 400;
+}
+
+.enter{
+    width: 300px !important;
+    height: 40px;
+    border: 2px solid rgb(136, 134, 134);
+    border-radius: 3px;
+    padding: 5px 10px;
+    color:black;
+}
+
+.e-enter{
+    width: 76%;
+    height: 40px;
+    border: 2px solid rgb(136, 134, 134);
+    border-radius: 3px;
+    padding: 5px 10px;
+    color:black;
+}
+
+
+#error{
+    padding: 30px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    color: red;
+}
+
+textarea{
+    padding: 20px 10px;
+    border: 2px solid rgb(136, 134, 134);
+    border-radius: 3px;
+}
+.btn2{
+    padding-left: 10px;
+}
+
+.btn2 button{
+    padding: 10px 15px;
+    background:  rgba(23, 84, 252, 0.884);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* -------------------Footer-------------------- */
+
+
+#footer{
+    padding: 30px 0px;
+    background-color: rgba(23, 84, 252, 0.884);
+    width: 100%;
+
+}
+
+
+.text16{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.fa-facebook,.fa-instagram,.fa-twitter{
+    padding: 0px 10px;
+    color: white;
+}
+
+hr{
+    color: white;
+    padding: 10px 0px;
+}
+
+.text17{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:767px){
+    .nav-link{
+        color: black !important;
+        padding: 20px 10px !important;
+        font-size: 20px;
+    }
+    
+    .image-flexing, .about-flexing{
+        display: flex !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .box1{
+        width: 300px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+    }
+
+    .box2{
+        width: 300px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+    }
+}
