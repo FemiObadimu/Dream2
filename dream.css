@@ -36,6 +36,7 @@ nav{
     
 }
 
+
 .top-spc{
     padding-top: 200px;
 }
@@ -92,6 +93,9 @@ nav{
     border-radius: 10px;
     background-color: rgb(247, 247, 247);
     position: relative;
+}
+.fade-right , .fade-left {
+   overflow-x: hidden;
 }
 
 .blue-icon-bg{
